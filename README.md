@@ -40,5 +40,8 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 23 insertions(+)
-➜  Study git:(feature/branch) git config --global user.name "suakig"
-➜  Study git:(feature/branch) git config --global user.email suakig@gmail.com
+Study git:(feature/branch) git config --global user.name "suakig"
+Study git:(feature/branch) git config --global user.email suakig@gmail.com
+
+
+
