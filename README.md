@@ -21,3 +21,24 @@ pbpaste > text.txt
 
 pbcopy < ~/.ssh/id_rsa.pub
 
+
+
+
+
+➜  Study git:(feature/branch) ✗ git commit                     
+[feature/branch bfc3ea2] README.md modify
+ Committer: 大濱泰明 <Ohamayasuaki@oohamayasuaki-no-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 23 insertions(+)
+➜  Study git:(feature/branch) git config --global user.name "suakig"
+➜  Study git:(feature/branch) git config --global user.email suakig@gmail.com
