@@ -1,0 +1,36 @@
+サブモジュールの作り方。
+
+➜  TestRepository git:(master) git submodule add git@github.com:suakig/Sub.git
+Cloning into 'Sub'...
+remote: Reusing existing pack: 4, done.
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 7 (delta 0), reused 0 (delta 0)
+Receiving objects: 100% (7/7), done.
+Checking connectivity... done.
+
+設定ファイル                .gitmodules
+サブモジュールディレクトリ   Sub 
+が作成される
+➜  TestRepository git:(master) ✗ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    new file:   .gitmodules
+    new file:   Sub 
+
+.gitmodulesの中身にはサブモジュールへのパスが書いてある
+➜  TestRepository git:(master) ✗ cat .gitmodules
+[submodule "Sub"]
+    path = Sub 
+    url = git@github.com:suakig/Sub.git
+
+
+
+
+
+
+
