@@ -45,3 +45,40 @@ Study git:(feature/branch) git config --global user.email suakig@gmail.com
 
 
 
+
+
+
+
+
+
+
+rmする時 git rm し忘れたら
+➜  TestRepository git:(master) ✗ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    deleted:    SubmoduleTest
+    deleted:    exp_Submodule
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  TestRepository git:(master) ✗ ls        
+README.md       Sub             empty_submodule modify
+➜  TestRepository git:(master) ✗ git rm SubmoduleTest
+rm 'SubmoduleTest'
+➜  TestRepository git:(master) ✗ git rm exp_Submodule
+rm 'exp_Submodule'
+
+➜  TestRepository git:(master) ✗ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+    deleted:    SubmoduleTest
+    deleted:    exp_Submodule
+
