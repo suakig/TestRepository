@@ -49,10 +49,9 @@ Study git:(feature/branch) git config --global user.email suakig@gmail.com
 
 
 
-
-
-
 rmする時 git rm し忘れたら
+
+
 ➜  TestRepository git:(master) ✗ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
