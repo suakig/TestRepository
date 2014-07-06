@@ -1,0 +1,22 @@
+ ➜  TestRepository git:(master) ✗ git status
+ On branch master
+ Your branch is up-to-date with 'origin/master'.
+ 
+ Changes not staged for commit:
+   (use "git add <file>..." to update what will be committed)
+   (use "git checkout -- <file>..." to discard changes in working directory)
+   
+     modified:   Sub (new commits)
+     
+ no changes added to commit (use "git add" and/or "git commit -a")
+ ➜  TestRepository git:(master) ✗ git diff 
+ 
+ diff --git a/Sub b/Sub
+ index ce1cca0..2878983 160000
+ --- a/Sub
+ +++ b/Sub
+ @@ -1 +1 @@
+ -Subproject commit ce1cca0d1d5e7fcb13202b92c599234ebd94cd55
+ +Subproject commit 287898303655f2d2acde68b27545fdc3dd32e6b6
+
+
